@@ -1,0 +1,132 @@
+/*.grid-container {
+  display: grid;
+  grid-template-columns: 30px auto auto 500px;
+ grid-template-rows: 50px 100px;
+  grid-gap: 5px;
+  background-color: #2196F3;
+    padding: 10px;
+
+}
+*/
+
+
+
+/* Title Section */
+.title{
+  padding: 15% 20%;
+  text-align: center;
+  /* background-color: #ef8172; */
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(69,26,242,1) 100%);
+  color: white;
+  margin-top: 30px;
+
+}
+
+h1{
+  font-family: Montserrat;
+}
+/* Break */
+hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 4%;
+}
+
+/* three steps */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%
+}
+
+
+/* Color of three steps */
+.invert{
+  filter: invert(100%);
+}
+
+/* Image Gallery Section */
+div.gallery {
+  /* border: 1px solid #ccc; */
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Gallery Description */
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Last Section */
+ .last{
+   padding: 15% 15% 5%;
+   text-align: center;
+   /* background-color: #ef8172; */
+   background: rgb(238,174,202);
+ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(69,26,242,1) 100%);
+   color: white;
+   margin-top: 30px;
+
+ }
+
+ /* Footer */
+
+ #footer{
+   padding: 7% 15% 15%;
+  text-align: center;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
